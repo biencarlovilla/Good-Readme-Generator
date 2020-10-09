@@ -46,3 +46,18 @@ async function promptUser(){
         },
     ]);
     }
+
+const util = require("util");
+const writeReadme = util.promisify(fs.writeFile);
+
+promptUser()
+.then(function(answer) {
+    const md = generateMd(answer);
+    return writeReadme("README.md", md);
+  })
+  .then(function() {
+    console.log("Successfully generated README.md file");
+  });
+
+
+  function generateMd(answer) {}
