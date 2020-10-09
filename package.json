@@ -1,0 +1,28 @@
+{
+  "name": "good-readme-generator",
+  "version": "1.0.0",
+  "description": "testing",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "inquirer": "^7.3.3",
+    "markdown": "^0.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm test run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/biencarlovilla/Good-Readme-Generator.git"
+  },
+  "keywords": [
+    "goodreadme"
+  ],
+  "author": "Biencarlo Villa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/biencarlovilla/Good-Readme-Generator/issues"
+  },
+  "homepage": "https://github.com/biencarlovilla/Good-Readme-Generator#readme"
+}
