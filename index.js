@@ -25,7 +25,7 @@ async function promptUser(){
         },
         {
             type: "input",
-            message: "Instructions for use.",
+            message: "Instructions for use: ",
             name: "usage"
         },
         {
@@ -89,5 +89,5 @@ promptUser()
   ${answer.test}
   
   ## Questions
-  If you have any questions and concerns, contact ${answer.username} on GitHub.`
+  If you have any questions and concerns, contact ${answer.contributors} on GitHub.`
   }

@@ -13,12 +13,12 @@
   * [Questions](#Questions)
   
   ## Installation
-  *npm install
-  *npm init -y
-  *npm install axios
-  *npm install inquirer
+  npm install
+  , npm init -y
+  , npm install axios
+  , npm install inquirer
   ## Usage
-  open terminal and provide information prompted
+  open terminal and provide information to questions prompted
   ## License
   MIT License
   
