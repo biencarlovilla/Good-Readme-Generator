@@ -83,7 +83,7 @@ promptUser()
   ${answer.licenseName}
   
   ## Contributors
-  https://github.com/+ ${answer.contributors}
+  https://github.com/${answer.contributors}
   
   ## Test
   ${answer.test}

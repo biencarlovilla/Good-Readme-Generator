@@ -14,13 +14,15 @@
   
   ## Installation
   npm install
+  npm install axios
+  npm install inquirer
   ## Usage
   open terminal and provide information prompted
   ## License
-  MIT
+  MIT License
   
   ## Contributors
-  https://github.com/+ biencarlovilla
+   https://github.com/biencarlovilla
   
   ## Test
   npm test
