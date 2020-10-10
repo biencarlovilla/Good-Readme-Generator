@@ -60,4 +60,34 @@ promptUser()
   });
 
 
-  function generateMd(answer) {}
+  function generateMd(answer) {
+    return `
+  # Title : ${answer.title}
+  ## Description: 
+  ${answer.desc}
+  ## Table of Contents
+  * [Description](#Description)
+  * [TableOfContents](#TableOfContents)
+  * [Installation](#Installation)
+  * [Usage](#Usage)
+  * [License](#license)
+  * [Contributors](#Contributors)
+  * [Tests](#Test)
+  * [Questions](#Questions)
+  
+  ## Installation
+  ${answer.install}
+  ## Usage
+  ${answer.usage}
+  ## License
+  ${answer.licenseName}
+  
+  ## Contributors
+  https://github.com/+ ${answer.contributors}
+  
+  ## Test
+  ${answer.test}
+  
+  ## Questions
+  If you have any questions and concerns, contact ${answer.username} on GitHub.`
+  }
