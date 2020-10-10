@@ -13,9 +13,10 @@
   * [Questions](#Questions)
   
   ## Installation
-  npm install
-  npm install axios
-  npm install inquirer
+  *npm install
+  *npm init -y
+  *npm install axios
+  *npm install inquirer
   ## Usage
   open terminal and provide information prompted
   ## License
